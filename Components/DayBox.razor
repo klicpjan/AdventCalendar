@@ -1,0 +1,20 @@
+﻿<div class="day">
+    <label>
+        <input type="checkbox" />
+        <div class="door">
+            <div class="front">@Day</div>
+            <div class="back"></div>
+        </div>
+        <div class="inside">
+            <img src="dist/images/lock.png" width="150"/>
+        </div>
+        <div class="title-container">
+            <a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+    </label>
+</div>
+
+@code {
+    [Parameter]
+    public string Day { get; set; }
+}

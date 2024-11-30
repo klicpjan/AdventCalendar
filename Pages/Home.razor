@@ -1,4 +1,5 @@
 ﻿@page "/"
+@using KlarkaAdventCalendar.Components
 @inject HttpClient Http
 
 <PageTitle>Klarka's Advent Calendar</PageTitle>
@@ -13,9 +14,6 @@
   <meta name="og:url" property="og:url" content="https://csschristmascalendar.com">
   <meta name="image" content="https://csschristmascalendar.com/assets/og.jpg">
   <meta name="description" content="This page demonstrates that almost any design concept is achievable with only HTML + CSS. No Javascript, no graphics.">
-  <link rel="icon" type="image/png" href="./assets/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="./assets/favicon-16x16.png" sizes="16x16" />
-  <link rel="stylesheet" href="styles.css"> 
 
   <script defer data-domain="csschristmascalendar.com" src="https://plausible.io/js/plausible.js"></script>
 </head>
@@ -25,44 +23,8 @@
     <div class="title">
       <h1><span class="title-1">Klarka's</span><span class="title-2">Christmas</span><span class="title-3">Calendar</span></h1>
     </div>
-    <div class="day day-1">
-      <label>
-        <input type="checkbox"/>
-        <div class="door">
-          <div class="front">1</div>
-          <div class="back"></div>
-        </div>
-        <div class="inside">
-          <div class="gingerbread-man-container">
-            <div class="gingerbread-man">
-              <div class="head">
-                <div class="eyebrow eyebrow--left"></div>
-                <div class="eyebrow eyebrow--right"></div>
-                <div class="eye eye--left"></div>
-                <div class="eye eye--right"></div>
-                <div class="mouth">
-                  <div class="mouth__lower-lip"></div>
-                  <div class="mouth__left-lip"></div>
-                  <div class="mouth__right-lip"></div>
-                  <div class="mouth__upper-lip"></div>
-                </div>
-              </div>
-              <div class="body">
-                <div class="arm arm--left"></div>
-                <div class="arm arm--right"></div>
-                <div class="leg leg--left"></div>
-                <div class="leg leg--right"></div>
-                <div class="belt"></div>
-                <div class="button button--top"></div>
-                <div class="button button--bottom"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
-        </div>
-      </label>
-    </div>
+    <DayBox Day="1">
+    </DayBox>
     <div class="day day-2">
       <label>
         <input type="checkbox"/>
