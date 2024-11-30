@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
-/*@import url("https://csschristmascalendar.com/assets/freeserif/font.css");*/
 
 body {
     background: url(https://i.imgur.com/FnJbmo1.jpg) no-repeat top center #8ac1d6;
@@ -6763,15 +6762,6 @@ footer a {
     overflow-x: hidden;
     background-color: #fefae0;
     height: 100%;
-}
-
-.jingle-bells {
-    position: absolute;
-    left: 0;
-    width: 80%;
-    height: 10rem;
-    font-family: "FreeSerif Medium";
-    transform: scale(0.15) translateX(-40rem);
 }
 
 @media only screen and (min-width: 576px) {
