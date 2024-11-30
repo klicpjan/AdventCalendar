@@ -1,3 +1,17 @@
+/* /Components/DayBox.razor.rz.scp.css */
+img[b-wy40xybn14] {
+    /* Responsive images (ensure images don't scale beyond their parents) */
+    /* Part 1: Set a maxium relative to the parent */
+    max-height: 100%;
+    max-width: 100%;
+    /* IE7-8 need help adjusting responsive images */
+    width: auto\9;
+    /* Part 2: Scale the height according to the width, otherwise you get stretching */
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
 /* /Layout/MainLayout.razor.rz.scp.css */
 .page[b-l5vv7eet12] {
     position: relative;
@@ -75,4 +89,14 @@ main[b-l5vv7eet12] {
         padding-left: 2rem !important;
         padding-right: 1.5rem !important;
     }
+}
+/* /Pages/Day1.razor.rz.scp.css */
+p[b-xfcj1rlby4] {
+    font-size: 2em;
+}
+
+.card[b-xfcj1rlby4] {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
