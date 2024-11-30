@@ -92,11 +92,10 @@ main[b-l5vv7eet12] {
 }
 /* /Pages/Day1.razor.rz.scp.css */
 p[b-xfcj1rlby4] {
-    font-size: 2em;
+    font-size: 1.75em;
 }
 
 .card[b-xfcj1rlby4] {
     max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    min-width: 200px;
 }
