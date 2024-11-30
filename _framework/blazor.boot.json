@@ -1,10 +1,10 @@
 {
   "mainAssemblyName": "KlarkaAdventCalendar",
   "resources": {
-    "hash": "sha256-zVF/SPkPWJXy37BG78uwnAEBQiSLKq05tmiwYrnW58E=",
+    "hash": "sha256-qi9PCvP2wJA+hFTJQvhCO8ryEHJ2Q2EMF8kgtFLNTo0=",
     "fingerprinting": {
-      "KlarkaAdventCalendar.u7pq8bp331.wasm": "KlarkaAdventCalendar.wasm",
-      "Microsoft.AspNetCore.Components.z4qilp703p.wasm": "Microsoft.AspNetCore.Components.wasm",
+      "KlarkaAdventCalendar.gh5zd854xk.wasm": "KlarkaAdventCalendar.wasm",
+      "Microsoft.AspNetCore.Components.04ksw32a33.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.7yvofxhswa.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
       "Microsoft.AspNetCore.Components.WebAssembly.pq7fdyw1tb.wasm": "Microsoft.AspNetCore.Components.WebAssembly.wasm",
       "Microsoft.Extensions.Configuration.Abstractions.f9jq6u05xu.wasm": "Microsoft.Extensions.Configuration.Abstractions.wasm",
@@ -31,7 +31,7 @@
       "System.Private.CoreLib.z0ps5jxb1l.wasm": "System.Private.CoreLib.wasm",
       "System.Private.Uri.g828qtivtf.wasm": "System.Private.Uri.wasm",
       "System.Runtime.InteropServices.JavaScript.x50649m5t2.wasm": "System.Runtime.InteropServices.JavaScript.wasm",
-      "System.Runtime.5uau8pn86z.wasm": "System.Runtime.wasm",
+      "System.Runtime.iyfszjwkff.wasm": "System.Runtime.wasm",
       "System.Text.Encodings.Web.wp0aonjvxd.wasm": "System.Text.Encodings.Web.wasm",
       "System.Text.Json.mbtmjdua3x.wasm": "System.Text.Json.wasm",
       "System.Text.RegularExpressions.gl65p7jdfx.wasm": "System.Text.RegularExpressions.wasm",
@@ -62,8 +62,8 @@
       "System.Runtime.InteropServices.JavaScript.x50649m5t2.wasm": "sha256-VS4CSyZJNRAj+SrJqgbXBFWlGMlNDgM4rbwJ6gTH5qg="
     },
     "assembly": {
-      "KlarkaAdventCalendar.u7pq8bp331.wasm": "sha256-1pnwqpFK90OGR4CM3LsIID9eAGj/tyLiNDdQrPjJva8=",
-      "Microsoft.AspNetCore.Components.z4qilp703p.wasm": "sha256-LQJuXWxokI+ZVzDUd3mADU7Inud47zd1dsa0aLtvMVI=",
+      "KlarkaAdventCalendar.gh5zd854xk.wasm": "sha256-fFx/o2mh6GzuHTaTM1DM6DsKE5kr5IfCqiXkooD2KJM=",
+      "Microsoft.AspNetCore.Components.04ksw32a33.wasm": "sha256-0ACEAjiu5xktztlVkezqL2EKcMbkEx9I/ihnTD6PcDQ=",
       "Microsoft.AspNetCore.Components.Web.7yvofxhswa.wasm": "sha256-QaU3MCJZXUPpTg3z+sdNujuTSOqUW4O70/Rc6aQj1xU=",
       "Microsoft.AspNetCore.Components.WebAssembly.pq7fdyw1tb.wasm": "sha256-D/ZUWrvE7bqOtBfOWuLj+4RNqOvNZ0SnjD6QrBwUcb8=",
       "Microsoft.Extensions.Configuration.Abstractions.f9jq6u05xu.wasm": "sha256-AyL87FvJMf14Dcn8HeQ3n2veg/RQGVGCjfpJPt1RQC4=",
@@ -88,7 +88,7 @@
       "System.Net.Http.if1wca2g7s.wasm": "sha256-PuONLjVT+RdY6SF7OiLiUWRgrDDy0Yhg/3WsHIKKNh0=",
       "System.Net.Primitives.rcgya37loz.wasm": "sha256-S21BwAjdSlZYujl9gymU48gTnFdfUyHO8N4chrKPCN0=",
       "System.Private.Uri.g828qtivtf.wasm": "sha256-UIsmQF8sL8FIo7O0+wbejnuIkTOKEBXFiYkWKE9gBSw=",
-      "System.Runtime.5uau8pn86z.wasm": "sha256-o/H0ltTqhefpNeubWddbUCaFPntcNFXNOPqDIK19V4g=",
+      "System.Runtime.iyfszjwkff.wasm": "sha256-ym75isdqqQ1QT1xZAPKfZ3FNuZpsQWZOl/TufCSwYUI=",
       "System.Text.Encodings.Web.wp0aonjvxd.wasm": "sha256-3Bkwa9mSjO7xOdlVLl0/qnjjZiS82EjQaxuCRyCUaC0=",
       "System.Text.Json.mbtmjdua3x.wasm": "sha256-DhsFaxsLRVjYqYbmQTRQDYvm+ZXxfAyrJAAYwrysrZA=",
       "System.Text.RegularExpressions.gl65p7jdfx.wasm": "sha256-XKqW+TrmS4TjaNifmwb+yfc9w2BWkr3dUjq0xmJYmEw="
