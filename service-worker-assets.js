@@ -1,13 +1,13 @@
 self.assetsManifest = {
-  "version": "x4pIVZ7w",
+  "version": "6QwH7Ni6",
   "assets": [
     {
       "hash": "sha256-mCg72mTE5sNM1Zo/+oZUNNbZXL4XZKCdQbmMHbsxGkU=",
       "url": "KlarkaAdventCalendar.styles.css"
     },
     {
-      "hash": "sha256-4bErBOcBPmehl8Rr01/sfOUhav68Dul3YHNYdA/wFlg=",
-      "url": "_framework/KlarkaAdventCalendar.b52xd6gnj9.wasm"
+      "hash": "sha256-dzaX6/KdZUAP4voITDpQ0MLtJ9RleEofS2dS4hZsHKc=",
+      "url": "_framework/KlarkaAdventCalendar.7olr47lhk0.wasm"
     },
     {
       "hash": "sha256-QaU3MCJZXUPpTg3z+sdNujuTSOqUW4O70/Rc6aQj1xU=",
@@ -18,8 +18,8 @@ self.assetsManifest = {
       "url": "_framework/Microsoft.AspNetCore.Components.WebAssembly.pq7fdyw1tb.wasm"
     },
     {
-      "hash": "sha256-4z03c8RN0RERqo6uycZLDWHWnnOQGG2bs2YAiFJ1RYY=",
-      "url": "_framework/Microsoft.AspNetCore.Components.z0wnk6hj7s.wasm"
+      "hash": "sha256-LQJuXWxokI+ZVzDUd3mADU7Inud47zd1dsa0aLtvMVI=",
+      "url": "_framework/Microsoft.AspNetCore.Components.z4qilp703p.wasm"
     },
     {
       "hash": "sha256-AyL87FvJMf14Dcn8HeQ3n2veg/RQGVGCjfpJPt1RQC4=",
@@ -114,12 +114,12 @@ self.assetsManifest = {
       "url": "_framework/System.Private.Uri.g828qtivtf.wasm"
     },
     {
-      "hash": "sha256-VS4CSyZJNRAj+SrJqgbXBFWlGMlNDgM4rbwJ6gTH5qg=",
-      "url": "_framework/System.Runtime.InteropServices.JavaScript.x50649m5t2.wasm"
+      "hash": "sha256-a61ikM2bpWasTKx+ofUBE4KDuBcCrm1LTT7sSEhAXIE=",
+      "url": "_framework/System.Runtime.9vjsf4oulp.wasm"
     },
     {
-      "hash": "sha256-jlCJHWpzh81TNFvuJfajng8Rs2lQ5yctUFSIZ3VzlfU=",
-      "url": "_framework/System.Runtime.uwb1ahzgw0.wasm"
+      "hash": "sha256-VS4CSyZJNRAj+SrJqgbXBFWlGMlNDgM4rbwJ6gTH5qg=",
+      "url": "_framework/System.Runtime.InteropServices.JavaScript.x50649m5t2.wasm"
     },
     {
       "hash": "sha256-3Bkwa9mSjO7xOdlVLl0/qnjjZiS82EjQaxuCRyCUaC0=",
@@ -134,7 +134,7 @@ self.assetsManifest = {
       "url": "_framework/System.Text.RegularExpressions.gl65p7jdfx.wasm"
     },
     {
-      "hash": "sha256-ag3MpqLurjAPCCLotYwGR2CueoEanA59rgblIzIZjsg=",
+      "hash": "sha256-3MxpTWLZWX8etelhx0lOmmqAITcNYd55n+w+vPCozEY=",
       "url": "_framework/blazor.boot.json"
     },
     {
