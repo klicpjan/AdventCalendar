@@ -1,20 +1,42 @@
-﻿<div class="day day-@(Day)">
+﻿@inject IJSRuntime JSRuntime
+@inject NavigationManager Navigation
+
+<div class="day day-@(Day)">
     <label>
-        <input type="checkbox" />
+        <input type="checkbox" disabled="@(IsUnlocked() ? null : "disabled")"/>
         <div class="door">
             <div class="front">@Day</div>
             <div class="back"></div>
         </div>
-        <div class="inside">
-            <img src="dist/images/lock.png" width="150"/>
+        <div class="inside justify-content-center d-flex">
+            <img src="dist/images/day1.png"/>
         </div>
         <div class="title-container">
-            <a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+            <a @onclick=@(() => Navigation.NavigateTo(RedirectUri))>@Title</a>
         </div>
     </label>
 </div>
 
 @code {
     [Parameter]
-    public string Day { get; set; }
+    public int Day { get; set; }
+
+    [Parameter]
+    public string RedirectUri { get; set; }
+
+    [Parameter]
+    public string Title { get; set; }
+
+    protected DateTime Date { get; set; }
+
+    protected bool IsUnlocked()
+    {
+        return Date >= new DateTime(2024, 12, Day);
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        //Date = new DateTime(2024, 12, 2);
+        Date = DateTime.Parse(await JSRuntime.InvokeAsync<string>("getBrowserTime"));
+    }
 }

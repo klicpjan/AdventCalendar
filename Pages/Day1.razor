@@ -1,0 +1,36 @@
+﻿@inject NavigationManager Navigation
+
+@page "/1-vmifoqwk"
+<div class="row d-flex flex-column align-content-center">
+    <div class="card m-3 p-3">
+        <p class="send-flowers-regular">Milá Klárko,</p>
+        <p class="send-flowers-regular">
+            Vítám tě na tvém digitálním adventním kalendáři! Začátek adventu tento rok prožíváš poněkud netradičně,
+            pevně však věřím, že vánoční atmosféra dorazila i do toho nového velkoměsta za rybníkem. Užijte si s mamkou cenné společné momenty. Myslím na tebe.
+        </p>
+        <p class="send-flowers-regular">
+        </p>
+        <p class="send-flowers-regular">
+            S láskou <br />
+            Honza <br />
+        </p>
+    </div>
+
+    <div class="card m-3 p-3 send-flowers-regular">
+        <p>
+            Pro dnešek ti chci nasdílet 3 tvé vlastnosti, které na tobě naprosto zbožňuji
+        </p>
+        <p>
+            - Zbožňuji tvůj roztomilý usměv <br />
+            - Miluji tvojí rozvernost a hravost <br />
+            - Jsem vděčný jak jsi vůči mě pozorná, ohleduplná a láskyplná
+        </p>
+    </div>
+
+    <button type="button" class="btn btn-primary w-auto" @onclick=@(() => Navigation.NavigateTo("/"))>
+        Zpět
+    </button>
+</div>
+@code {
+
+}

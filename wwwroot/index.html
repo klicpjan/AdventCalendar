@@ -13,6 +13,9 @@
     <link href="manifest.webmanifest" rel="manifest" />
     <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
     <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -26,5 +29,14 @@
     <script src="_framework/blazor.webassembly.js"></script>
     <script>navigator.serviceWorker.register('service-worker.js');</script>
 </body>
-
 </html>
+
+<script>
+    window.getBrowserTime = () => {
+        const now = new Date();
+        // Adjusting the date to the local timezone
+        const offset = now.getTimezoneOffset(); // Timezone offset in minutes
+        now.setMinutes(now.getMinutes() - offset); // Adjusting by the timezone offset
+        return now.toISOString().split('T')[0]; // Return only the date part (YYYY-MM-DD)
+    };
+</script>
