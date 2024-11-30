@@ -19,13 +19,15 @@ jobs:
       with:
         dotnet-version: 9.0.100
 
+    # changes the base-tag in index.html from '/' to 'KlarkaAdventCalendar' to match GitHub Pages repository subdirectory
+    - name: Change base-tag in index.html from / to BlazorGitHubPagesDemo
+      run: sed -i 's/<base href="\/" \/>/<base href="\/AdventCalendar\/" \/>/g' wwwroot/index.html
+
     # publishes Blazor project to the release-folder
     - name: Publish .NET Core Project
       run: dotnet publish KlarkaAdventCalendar.csproj -c Release -o release --nologo
     
-    # changes the base-tag in index.html from '/' to 'KlarkaAdventCalendar' to match GitHub Pages repository subdirectory
-    - name: Change base-tag in index.html from / to BlazorGitHubPagesDemo
-      run: sed -i 's/<base href="\/" \/>/<base href="\/AdventCalendar\/" \/>/g' release/wwwroot/index.html
+    
     
     # copy index.html to 404.html to serve the same file when a file is not found
     - name: copy index.html to 404.html
