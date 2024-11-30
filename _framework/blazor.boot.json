@@ -1,9 +1,9 @@
 {
   "mainAssemblyName": "KlarkaAdventCalendar",
   "resources": {
-    "hash": "sha256-vHrJ7lnC1Jafcwiwwqwh1yik7zSLC4VqrGMYvr3XsGY=",
+    "hash": "sha256-nNmlcF7dka7MjLoxdd3eKIzLlguTKTIKfU5EnTQZsbU=",
     "fingerprinting": {
-      "KlarkaAdventCalendar.babyyes06p.wasm": "KlarkaAdventCalendar.wasm",
+      "KlarkaAdventCalendar.vljzyruawb.wasm": "KlarkaAdventCalendar.wasm",
       "Microsoft.AspNetCore.Components.z4qilp703p.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.7yvofxhswa.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
       "Microsoft.AspNetCore.Components.WebAssembly.pq7fdyw1tb.wasm": "Microsoft.AspNetCore.Components.WebAssembly.wasm",
@@ -62,7 +62,7 @@
       "System.Runtime.InteropServices.JavaScript.x50649m5t2.wasm": "sha256-VS4CSyZJNRAj+SrJqgbXBFWlGMlNDgM4rbwJ6gTH5qg="
     },
     "assembly": {
-      "KlarkaAdventCalendar.babyyes06p.wasm": "sha256-o4ck9E3sgF9bVKP84rWF3CdX0ZaDU1hVSojJjrjhJhg=",
+      "KlarkaAdventCalendar.vljzyruawb.wasm": "sha256-/aNhRsAK2H6jyJjxGvuh0medED0p3GlOMEsvC3Hjo/A=",
       "Microsoft.AspNetCore.Components.z4qilp703p.wasm": "sha256-LQJuXWxokI+ZVzDUd3mADU7Inud47zd1dsa0aLtvMVI=",
       "Microsoft.AspNetCore.Components.Web.7yvofxhswa.wasm": "sha256-QaU3MCJZXUPpTg3z+sdNujuTSOqUW4O70/Rc6aQj1xU=",
       "Microsoft.AspNetCore.Components.WebAssembly.pq7fdyw1tb.wasm": "sha256-D/ZUWrvE7bqOtBfOWuLj+4RNqOvNZ0SnjD6QrBwUcb8=",
