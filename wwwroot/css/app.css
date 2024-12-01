@@ -394,7 +394,7 @@ body {
 
 .calendar-grid .day-24 {
     grid-area: day24;
-    z-index: 17;
+    z-index: 15;
 }
 
 @media only screen and (min-width: 900px) {
