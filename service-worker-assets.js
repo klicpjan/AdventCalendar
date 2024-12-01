@@ -1,13 +1,13 @@
 self.assetsManifest = {
-  "version": "FtnpHcc9",
+  "version": "JqIjEHXJ",
   "assets": [
     {
       "hash": "sha256-g/sF6HnIDVSevU+2yavRNba6D6AIhyYiP3WTDig53qo=",
       "url": "KlarkaAdventCalendar.styles.css"
     },
     {
-      "hash": "sha256-ngigLCofVGZYb4olF9q6nE82qOj6EIx3u4PB0o/LX4M=",
-      "url": "_framework/KlarkaAdventCalendar.u8m0wybwg1.wasm"
+      "hash": "sha256-coGz0sTGXlwuvLbjwOSzaZx2ZRVcjLyQxoW503VXHnA=",
+      "url": "_framework/KlarkaAdventCalendar.yk4p66kvpe.wasm"
     },
     {
       "hash": "sha256-QaU3MCJZXUPpTg3z+sdNujuTSOqUW4O70/Rc6aQj1xU=",
@@ -134,7 +134,7 @@ self.assetsManifest = {
       "url": "_framework/System.Text.RegularExpressions.gl65p7jdfx.wasm"
     },
     {
-      "hash": "sha256-muFwTlp4J920SP6Fg0AnSp1itxcBbhTlXUl2oxFWtQQ=",
+      "hash": "sha256-bcqnX/Y7sQ6DODgZKgkrSaXfx4ynVIiLZjjUWrg4Bcg=",
       "url": "_framework/blazor.boot.json"
     },
     {
