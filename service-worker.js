@@ -1,4 +1,4 @@
-/* Manifest version: 2EiKgtlm */
+/* Manifest version: vpypycvF */
 self.addEventListener('fetch', () => { });
 
 
