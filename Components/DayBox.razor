@@ -9,7 +9,7 @@
             <div class="back"></div>
         </div>
         <div class="inside justify-content-center d-flex">
-            <img src="dist/images/day1.png"/>
+            <img src="dist/images/day@(Day).png"/>
         </div>
         <div class="title-container">
             <a @onclick=@(() => Navigation.NavigateTo(RedirectUri))>@Title</a>
@@ -21,6 +21,9 @@
     [Parameter]
     public int Day { get; set; }
 
+    [SupplyParameterFromQuery]
+    public bool ForceUnlock { get; set; }
+
     [Parameter]
     public string RedirectUri { get; set; }
 
@@ -31,6 +34,9 @@
 
     protected bool IsUnlocked()
     {
+        if (ForceUnlock)
+        { return true; }
+
         return Date >= new DateTime(2024, 12, Day);
     }
 

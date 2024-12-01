@@ -1,0 +1,26 @@
+﻿@inject NavigationManager Navigation
+
+@page "/2-usaldamsd"
+<div class="row d-flex flex-column align-content-center p-4">
+    <div class="card m-3 p-3 paper-bg">
+        <p class="send-flowers-regular">Milá Klárko,</p>
+        <p class="send-flowers-regular">
+            Pevně věřím, že i přes uvítací zážitek s příměsí vězeňské estetiky jste si našly kousek klidu a krásy ve víru velkoměsta. Dnes vás čeká něco opravdu výjimečného – koncert Pražské filharmonie v Carnegie Hall. Jaká to pocta, být svědkem tohoto okamžiku, kdy tóny z našeho milovaného domova ožijí na tak slavném pódiu!
+
+            V dnešním okénku ti přináším drobnou vzpomínku na náš společný večer v Rudolfinu. Pamatuš na to, jak se melodie Špačkových houslí doprovázených orchestrem linuly sálem a jak jsme se v tom okamžiku cítili nesmírně blízko sobě i hudbě? Doufám, že ten dnešní koncert probudí podobné kouzlo a že alespoň na chvíli budete mít pocit, že jsem tam s vámi.
+        </p>
+        <p class="send-flowers-regular">
+        </p>
+        <p class="send-flowers-regular">
+            S láskou <br />
+            Honza <br />
+        </p>
+    </div>
+    <img class="collage m-3" src="/dist/images/Day2Collage.jpg" />
+    <button type="button" class="btn btn-primary w-auto m-3" @onclick=@(() => Navigation.NavigateTo(""))>
+        Zpět
+    </button>
+</div>
+@code {
+
+}

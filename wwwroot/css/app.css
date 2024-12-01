@@ -13,6 +13,11 @@ body {
     font-family: "Send Flowers", cursive;
     font-weight: 400;
     font-style: normal;
+    
+}
+
+.paper-bg {
+    background: url(../dist/backgrounds/papger-bg.jpg) top center
 }
 
 /* calendar layout */
@@ -41,7 +46,7 @@ body {
 }
 
 /* media query */
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 900px) {
     .calendar-grid {
         grid-template-columns: repeat(6, 1fr);
         grid-template-areas:
@@ -70,7 +75,7 @@ body {
         flex-direction: column;
     }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 900px) {
     .calendar-grid .title h1 {
         font-size: 5rem;
         flex-direction: column;
@@ -117,7 +122,7 @@ body {
     position: relative;
 }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 900px) {
     .calendar-grid label {
         height: 136px;
     }
@@ -270,12 +275,6 @@ body {
     opacity: 1;
 }
 
-@media only screen and (min-width: 576px) {
-    footer div div {
-        font-size: 1rem;
-        margin-right: -18.5rem;
-    }
-}
 
 /* Calendar day positions and z-indexes */
 .calendar-grid .day-1 {
@@ -398,7 +397,7 @@ body {
     z-index: 17;
 }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 900px) {
     .calendar-grid .day-1 {
         z-index: 16;
     }
