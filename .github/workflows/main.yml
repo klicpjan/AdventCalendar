@@ -23,8 +23,8 @@ jobs:
     - name: Change base-tag in index.html from / to BlazorGitHubPagesDemo
       run: sed -i 's/<base href="\/" \/>/<base href="\/AdventCalendar\/" \/>/g' wwwroot/index.html
 
-    - name: Update cache dotnet-version
-      run: sed -i 's/{#CACHE_VERSION#}/${{ github.run_id }}/' wwwroot/service-worker.published.js
+    # - name: Update cache dotnet-version
+    #   run: sed -i 's/{#CACHE_VERSION#}/${{ github.run_id }}/' wwwroot/service-worker.published.js
 
     # publishes Blazor project to the release-folder
     - name: Publish .NET Core Project
