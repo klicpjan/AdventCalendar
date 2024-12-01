@@ -1,13 +1,13 @@
 self.assetsManifest = {
-  "version": "Udkdvus2",
+  "version": "+9fQncc9",
   "assets": [
     {
-      "hash": "sha256-ffmvOkUglAXWSAVmWZgsHZ/CoH9OwBfTr6H7CR/Um30=",
+      "hash": "sha256-g/sF6HnIDVSevU+2yavRNba6D6AIhyYiP3WTDig53qo=",
       "url": "KlarkaAdventCalendar.styles.css"
     },
     {
-      "hash": "sha256-Jj7RGUSinEj8Icjhni8tIu0QOSzsDWjrBv/cAjwPr1Y=",
-      "url": "_framework/KlarkaAdventCalendar.m1qkho7ifh.wasm"
+      "hash": "sha256-4ZPrroRA60S6wowWnSOvJ+14Rs58W8c8I74A8E4niEw=",
+      "url": "_framework/KlarkaAdventCalendar.b91f0axhgz.wasm"
     },
     {
       "hash": "sha256-QaU3MCJZXUPpTg3z+sdNujuTSOqUW4O70/Rc6aQj1xU=",
@@ -18,8 +18,8 @@ self.assetsManifest = {
       "url": "_framework/Microsoft.AspNetCore.Components.WebAssembly.pq7fdyw1tb.wasm"
     },
     {
-      "hash": "sha256-LQJuXWxokI+ZVzDUd3mADU7Inud47zd1dsa0aLtvMVI=",
-      "url": "_framework/Microsoft.AspNetCore.Components.z4qilp703p.wasm"
+      "hash": "sha256-cMrSwhv8nwJVDX43PqFKWqmHSq7UN1wNkajUM+M5Ohc=",
+      "url": "_framework/Microsoft.AspNetCore.Components.g4ptabhhuu.wasm"
     },
     {
       "hash": "sha256-AyL87FvJMf14Dcn8HeQ3n2veg/RQGVGCjfpJPt1RQC4=",
@@ -114,12 +114,12 @@ self.assetsManifest = {
       "url": "_framework/System.Private.Uri.g828qtivtf.wasm"
     },
     {
-      "hash": "sha256-a61ikM2bpWasTKx+ofUBE4KDuBcCrm1LTT7sSEhAXIE=",
-      "url": "_framework/System.Runtime.9vjsf4oulp.wasm"
-    },
-    {
       "hash": "sha256-VS4CSyZJNRAj+SrJqgbXBFWlGMlNDgM4rbwJ6gTH5qg=",
       "url": "_framework/System.Runtime.InteropServices.JavaScript.x50649m5t2.wasm"
+    },
+    {
+      "hash": "sha256-3NuzB+lGKC9HGfp/CJ+qjomI66qAl9p+IKrnC8XVXqA=",
+      "url": "_framework/System.Runtime.c4ciap84j2.wasm"
     },
     {
       "hash": "sha256-3Bkwa9mSjO7xOdlVLl0/qnjjZiS82EjQaxuCRyCUaC0=",
@@ -134,7 +134,7 @@ self.assetsManifest = {
       "url": "_framework/System.Text.RegularExpressions.gl65p7jdfx.wasm"
     },
     {
-      "hash": "sha256-/dRRBDzFHOR56RIumEOHLmdkNloWl2Wi3K7qVOHrZnc=",
+      "hash": "sha256-9mlyJSvyznuTO2kLi/5ARqIkARnziQOzu4XNUdt9drM=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -170,12 +170,24 @@ self.assetsManifest = {
       "url": "_framework/icudt_no_CJK.lfu7j35m59.dat"
     },
     {
-      "hash": "sha256-BedafLOM5B8zQeQT/HBmzsGT+tM+EO5dCZ0TDtgYjp8=",
+      "hash": "sha256-tLRLK4v9hlbkZAUU6a6wfU+sEr76SGeYQ+xvW+oOKkw=",
       "url": "css/app.css"
+    },
+    {
+      "hash": "sha256-EC037MmXTw8HXbKxDPu6TFKyCmdSIvhC5vNl0LhGixc=",
+      "url": "dist/backgrounds/papger-bg.jpg"
+    },
+    {
+      "hash": "sha256-CGFX/3ksGqqV1sSFOfJU8wrRe1/9DJnH8sOWdS9sZLA=",
+      "url": "dist/images/Day2Collage.jpg"
     },
     {
       "hash": "sha256-rJ3ayUKL6eudty6yZzYA1Rvm/HPyTNQ9vLdqF/Jd7ms=",
       "url": "dist/images/day1.png"
+    },
+    {
+      "hash": "sha256-wFeMfPyDiH0DqA5SCIj+7bV5yyrb1Xl0SV+6/wrdVgI=",
+      "url": "dist/images/day2.png"
     },
     {
       "hash": "sha256-ygDe7EnrotvFwzYSk3rcRUH4nQJSwzauCTMHH+tigbY=",
