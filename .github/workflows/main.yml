@@ -27,8 +27,9 @@ jobs:
     - name: Publish .NET Core Project
       run: dotnet publish KlarkaAdventCalendar.csproj -c Release -o release --nologo
     
-    
-    
+    - name: Update cache dotnet-version
+      run: sed -i ''s/{#CACHE_VERSION#}/${{ github.run_id }}'' KlarkaAdventCalendar/wwwroot/service-worker.published.js
+
     # copy index.html to 404.html to serve the same file when a file is not found
     - name: copy index.html to 404.html
       run: cp release/wwwroot/index.html release/wwwroot/404.html
