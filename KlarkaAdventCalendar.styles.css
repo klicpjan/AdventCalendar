@@ -112,3 +112,25 @@ p[b-rxy3ysbd9y] {
 .collage[b-rxy3ysbd9y] {
     max-width: 600px;
 }
+/* /Pages/Day3.razor.rz.scp.css */
+p[b-pxwtqce62l] {
+    font-size: 1.75em;
+}
+
+.card[b-pxwtqce62l] {
+    max-width: 600px;
+    min-width: 200px;
+}
+
+.collage[b-pxwtqce62l] {
+    max-width: 600px;
+}
+
+button[b-pxwtqce62l] {
+    max-width: 400px;
+}
+
+iframe[b-pxwtqce62l] 
+{
+    max-width: 600px;
+}

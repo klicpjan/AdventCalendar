@@ -1,13 +1,13 @@
 self.assetsManifest = {
-  "version": "Rk11oXDB",
+  "version": "jhU5RocW",
   "assets": [
     {
-      "hash": "sha256-g/sF6HnIDVSevU+2yavRNba6D6AIhyYiP3WTDig53qo=",
+      "hash": "sha256-Q7w8+NVVhi8V2QfqfJS3u9kuO97mHfq1HybNMABrJeY=",
       "url": "KlarkaAdventCalendar.styles.css"
     },
     {
-      "hash": "sha256-B6XukZE75u0Lc00Kx+vBc061bb6DeLV+LQRgzTXNgoU=",
-      "url": "_framework/KlarkaAdventCalendar.j5c6ikoasx.wasm"
+      "hash": "sha256-fe6goFbpgYEV3Ph7imNnCEtoGZmEdua1CiYdz9CBG9Q=",
+      "url": "_framework/KlarkaAdventCalendar.lqgnia0a6l.wasm"
     },
     {
       "hash": "sha256-QaU3MCJZXUPpTg3z+sdNujuTSOqUW4O70/Rc6aQj1xU=",
@@ -134,7 +134,7 @@ self.assetsManifest = {
       "url": "_framework/System.Text.RegularExpressions.gl65p7jdfx.wasm"
     },
     {
-      "hash": "sha256-r59Ot2EOzd7MNC+XAL6yrettcSkFsth5BExD8AIqHDg=",
+      "hash": "sha256-JoTM5y3oNc/NlW6kDX+3hrZwSzLcRcADXNDFSplX3es=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -182,20 +182,24 @@ self.assetsManifest = {
       "url": "dist/images/Day2Collage.jpg"
     },
     {
-      "hash": "sha256-rJ3ayUKL6eudty6yZzYA1Rvm/HPyTNQ9vLdqF/Jd7ms=",
-      "url": "dist/images/day1.png"
-    },
-    {
-      "hash": "sha256-wFeMfPyDiH0DqA5SCIj+7bV5yyrb1Xl0SV+6/wrdVgI=",
-      "url": "dist/images/day2.png"
-    },
-    {
       "hash": "sha256-wFeMfPyDiH0DqA5SCIj+7bV5yyrb1Xl0SV+6/wrdVgI=",
       "url": "dist/images/day3.png"
     },
     {
       "hash": "sha256-ygDe7EnrotvFwzYSk3rcRUH4nQJSwzauCTMHH+tigbY=",
       "url": "dist/images/lock.png"
+    },
+    {
+      "hash": "sha256-rJ3ayUKL6eudty6yZzYA1Rvm/HPyTNQ9vLdqF/Jd7ms=",
+      "url": "dist/images/thumbnails/day1.png"
+    },
+    {
+      "hash": "sha256-wFeMfPyDiH0DqA5SCIj+7bV5yyrb1Xl0SV+6/wrdVgI=",
+      "url": "dist/images/thumbnails/day2.png"
+    },
+    {
+      "hash": "sha256-Hak+phTCucQnq0Vq9jjfwSNoYWgeJPpTk/z3TQZRFds=",
+      "url": "dist/images/thumbnails/day3.png"
     },
     {
       "hash": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
