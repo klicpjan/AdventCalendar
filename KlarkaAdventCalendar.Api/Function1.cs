@@ -20,6 +20,7 @@ namespace KlarkaAdventCalendar.Api
         public async Task<IActionResult> Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")] HttpRequest req)
         {
             var connectionString = Environment.GetEnvironmentVariable("EMAIL_CONNECTION_STRING");
+            _logger.LogCritical(connectionString);
             var emailClient = new EmailClient(connectionString);
 
             var emailMessage = new EmailMessage(
@@ -40,7 +41,6 @@ namespace KlarkaAdventCalendar.Api
 
             EmailSendOperation emailSendOperation = await emailClient.SendAsync(WaitUntil.Completed, emailMessage);
 
-            _logger.LogInformation(connectionString);
             return new OkObjectResult("Welcome to Azure Functions!");
         }
     }
