@@ -5,7 +5,7 @@ VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlarkaAdventCalendar.Api", "KlarkaAdventCalendar.Api\KlarkaAdventCalendar.Api.csproj", "{DC465C31-C6E0-454A-BE98-F766C742951A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlarkaAdventCalendar.Web", "KlarkaAdventCalendar.Blazor\KlarkaAdventCalendar.Web.csproj", "{1200CEE0-F6EF-48F5-8ABE-E649DF64B101}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlarkaAdventCalendar.Web", "KlarkaAdventCalendar.Web\KlarkaAdventCalendar.Web.csproj", "{1200CEE0-F6EF-48F5-8ABE-E649DF64B101}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
