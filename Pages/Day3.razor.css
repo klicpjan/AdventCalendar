@@ -1,0 +1,21 @@
+﻿p {
+    font-size: 1.75em;
+}
+
+.card {
+    max-width: 600px;
+    min-width: 200px;
+}
+
+.collage {
+    max-width: 600px;
+}
+
+button {
+    max-width: 400px;
+}
+
+iframe 
+{
+    max-width: 600px;
+}

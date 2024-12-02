@@ -1,0 +1,25 @@
+﻿@inject NavigationManager Navigation
+
+@page "/3-asdasd"
+<div class="row d-flex flex-column align-content-center p-4">
+    <div class="card my-3 mx-auto p-3 paper-bg">
+        <p class="send-flowers-regular">Milá Klárko,</p>
+        <p class="send-flowers-regular">
+            V dnešním okénku ti posílám precizně vybraný playlist jen pro tebe - směs kouzla od Taylor, sváteční atmosféry Vánoc a rušného kouzla New Yorku. Ať už se procházíš živými ulicemi, nebo se v klídku zachumláš do deky, doufám, že ti to vykouzlí úsměv na tváři a připomene ti, jak moc jsi milovaná.
+        </p>
+        <p class="send-flowers-regular">
+            S láskou <br />
+            Honza ❤️ <br />
+        </p>
+        <p class="send-flowers-regular">
+            PS: Kdyby ti playlist nešel otevřít, nebo si neměla jak si ho přeposlat k sobě na mobil, tak napiš 😘
+        </p>
+    </div>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6cJhZDBApmf56PLBqtstlO?utm_source=generator" height="700" frameBorder="0" allowfullscreen="" allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <button type="button" class="btn btn-primary my-3 mx-auto" @onclick=@(() => Navigation.NavigateTo(""))>
+        Zpět
+    </button>
+</div>
+@code {
+
+}
