@@ -1,4 +1,4 @@
-﻿namespace KlarkaAdventCalendar.Global
+﻿namespace KlarkaAdventCalendar.Web.Global
 {
     public static class GlobalVariables
     {

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35521.163 d17.12
+VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlarkaAdventCalendar", "KlarkaAdventCalendar.csproj", "{2C8CE5F9-F566-4A13-918B-EEF42239B3D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlarkaAdventCalendar.Api", "KlarkaAdventCalendar.Api\KlarkaAdventCalendar.Api.csproj", "{DC465C31-C6E0-454A-BE98-F766C742951A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlarkaAdventCalendar.Web", "KlarkaAdventCalendar.Blazor\KlarkaAdventCalendar.Web.csproj", "{1200CEE0-F6EF-48F5-8ABE-E649DF64B101}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2C8CE5F9-F566-4A13-918B-EEF42239B3D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2C8CE5F9-F566-4A13-918B-EEF42239B3D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2C8CE5F9-F566-4A13-918B-EEF42239B3D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2C8CE5F9-F566-4A13-918B-EEF42239B3D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC465C31-C6E0-454A-BE98-F766C742951A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC465C31-C6E0-454A-BE98-F766C742951A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC465C31-C6E0-454A-BE98-F766C742951A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC465C31-C6E0-454A-BE98-F766C742951A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1200CEE0-F6EF-48F5-8ABE-E649DF64B101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1200CEE0-F6EF-48F5-8ABE-E649DF64B101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1200CEE0-F6EF-48F5-8ABE-E649DF64B101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1200CEE0-F6EF-48F5-8ABE-E649DF64B101}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
