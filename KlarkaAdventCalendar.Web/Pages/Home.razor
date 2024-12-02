@@ -48,5 +48,8 @@
 </body>
 
 @code {
-    
+    protected override async Task OnInitializedAsync()
+    {
+        await Http.GetAsync("/api/Function1");
+    }
 }
